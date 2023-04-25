@@ -1,0 +1,22 @@
+.dark-mode-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.2s ease-in-out;
+    width: 48px; /* largeur du bouton */
+    height: 48px; /* hauteur du bouton */
+    color: var(--textNormal);
+  }
+  
+  .dark-mode-toggle:hover {
+    opacity: 0.7;
+  }
+  
+  [dir="rtl"] .dark-mode-toggle {
+    flex-direction: row-reverse;
+  }
