@@ -14,6 +14,11 @@
     Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
     ```shell
+    # Install the Gatsby CLI globally by running the command below.
+    npm install -g gatsby-cli
+    ```
+
+    ```shell
     # create a new Gatsby site using the minimal starter
     npm init gatsby
     ```
@@ -24,7 +29,7 @@
 
     ```shell
     cd my-gatsby-site/
-    npm run develop
+    gatsby develop
     ```
 
 3.  **Open the code and start customizing!**
