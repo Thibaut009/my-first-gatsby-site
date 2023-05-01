@@ -1,9 +1,9 @@
 import React from "react"
-import { home , title} from './home.module.css'
+import { section, title } from './welcome.module.css'
 
-const Home = () => {
+const Welcome = () => {
   return (
-    <div className={home}>
+    <div className={section}>
       <div className={title}>
         <h1>Bienvenue sur mon site</h1>
       </div>
@@ -11,4 +11,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Welcome

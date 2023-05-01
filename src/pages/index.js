@@ -1,17 +1,21 @@
 import * as React from "react"
 import Navbar from "../components/navbar/navbar"
-import Home from "../components/home/home"
+import Welcome from "../components/welcome/welcome"
+import About from "../components/about/about"
+import Contact from "../components/contact/contact"
 import "../styles/global.css"
 
 const IndexPage = () => {
   return (
     <main>
       <Navbar />
-      <Home />
+      <Welcome />
+      <About />
+      <Contact />
     </main>
   )
 }
 
 export default IndexPage
 
-export const Head = () => <title>Home</title>
+export const Head = () => <title>Welcome</title>

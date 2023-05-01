@@ -2,7 +2,7 @@ import * as React from "react"
 import Navbar from "../components/navbar/navbar"
 import Contact from "../components/contact/contact"
 
-const ContactPage = () => {
+const ProjectsPage = () => {
   return (
     <main>
       <Navbar />
@@ -11,6 +11,6 @@ const ContactPage = () => {
   )
 }
 
-export default ContactPage
+export default ProjectsPage
 
-export const Head = () => <title>Contact</title>
+export const Head = () => <title>Projects</title>

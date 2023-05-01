@@ -22,13 +22,13 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
         <li>
-          <Link to="/">Accueil</Link>
+          <Link to="/">Welcome</Link>
         </li>
         <li>
-          <Link to="/about">À propos</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/training">Training</Link>
         </li>
       </ul>
     </nav>
