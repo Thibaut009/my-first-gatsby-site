@@ -5,9 +5,9 @@ const About = () => {
   return (
     <div className={section}>
       <div className={title}>
-        <p>Ceci est la page About de mon site</p>
+        <p>This is the About section of my site</p>
       </div>
-  </div>
+    </div>
   )
 }
 

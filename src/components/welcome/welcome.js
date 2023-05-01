@@ -5,7 +5,7 @@ const Welcome = () => {
   return (
     <div className={section}>
       <div className={title}>
-        <h1>Bienvenue sur mon site</h1>
+        <h1>Welcome to my website</h1>
       </div>
     </div>
   )

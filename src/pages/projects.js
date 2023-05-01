@@ -1,12 +1,12 @@
 import * as React from "react"
 import Navbar from "../components/navbar/navbar"
-import Contact from "../components/contact/contact"
+import Projects from "../components/projects/projects"
 
 const ProjectsPage = () => {
   return (
     <main>
       <Navbar />
-      <Contact />
+      <Projects />
     </main>
   )
 }

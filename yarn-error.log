@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Thibaut\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-switch
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Program Files\dotnet\;C:\Users\Thibaut\AppData\Local\Microsoft\WindowsApps;C:\Users\Thibaut\.dotnet\tools;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\ucrt;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Qt;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\ucrt;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Ssl;C:\Users\Thibaut\AppData\Roaming\Composer\vendor\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Thibaut\AppData\Local\Microsoft\WindowsApps;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\ucrt;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Qt;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\ucrt;C:\Users\Thibaut\AppData\Roaming\Dashlane\6.2002.0.30909\bin\Ssl;C:\Users\Thibaut\AppData\Roaming\Composer\vendor\bin;C:\Users\Thibaut\AppData\Local\atom\bin;C:\Users\Thibaut\AppData\Local\Programs\Microsoft VS Code\bin;C:\flutter\bin;C:\Users\Thibaut\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Thibaut\Desktop\gatsby\my-first-gatsby-site\node_modules\@lmdb\lmdb-win32-x64\node.abi108.node'
+
+npm manifest: 
+  {
+    "name": "my-gatsby-site",
+    "version": "1.0.0",
+    "private": true,
+    "description": "my-gatsby-site",
+    "author": "Thibaut009",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^5.8.1",
+      "gatsby-plugin-dark-mode": "^1.1.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.8.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

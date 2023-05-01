@@ -1,16 +1,16 @@
 import * as React from "react"
 import Navbar from "../components/navbar/navbar"
-import About from "../components/about/about"
+import Trainings from "../components/trainings/trainings"
 
 const trainingPage = () => {
   return (
     <main>
       <Navbar />
-      <About />
+      <Trainings />
     </main>
   )
 }
 
 export default trainingPage
 
-export const Head = () => <title>Training</title>
+export const Head = () => <title>Trainings</title>

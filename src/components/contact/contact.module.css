@@ -5,61 +5,9 @@
   background-color: var(--bg);
 }
 
-.contact {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    max-width: 800px;
-    padding: 2rem;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .imageContainer {
-    flex: 0 0 auto;
-    margin-right: 2rem;
-    width: 150px;
-  }
-  
-  .imageContainer img {
-    display: block; /* pour éviter les espaces blancs en dessous de l'image */
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .infoContainer {
-    flex: 1 1 auto;
-  }
-  
-  .contactItem {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-  
-  .icon {
-    margin-right: 0.5rem;
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  .link {
-    color: #333;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .link:hover {
-    color: #0077ff;
-  }
-  
-  .address {
-    color: #555;
-    font-weight: 500;
-  }
-  
+.title {
+  position: absolute; /* postulat de départ */
+  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); 
+  color: var(--textNormal);
+}

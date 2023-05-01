@@ -14,23 +14,25 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo">
-        Mon Site
+        My Site
       </Link>
-      <Darkmode />
-      <div className="navbar-menu-icon" onClick={toggleMenu}>
-        {isOpen ? <FaTimes /> : <FaBars />}
+      <div className="menu-darkmode">
+        <div className="navbar-menu-icon" onClick={toggleMenu}>
+          {isOpen ? <FaTimes /> : <FaBars />}
+        </div>
+        <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
+          <li>
+            <Link to="/">Welcome</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/training">Trainings</Link>
+          </li>
+        </ul>
+        <Darkmode />
       </div>
-      <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
-        <li>
-          <Link to="/">Welcome</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/training">Training</Link>
-        </li>
-      </ul>
     </nav>
   )
 }

@@ -6,19 +6,23 @@ import '../darkmode/darkmode.css'
 const Darkmode = () => {
   return (
     <ThemeToggler>
-    {({ theme, toggleTheme }) => (
-      <button
-        className="dark-mode-toggle"
-        onClick={() => toggleTheme(theme === "dark" ? "light" : "dark")}
-      >
-        {theme === "dark" ? (
-          <FaSun />
-        ) : (
-          <FaMoon />
-        )}
-      </button>
-    )}
-  </ThemeToggler>
+      {({ theme, toggleTheme }) => (
+        <label className="switch dark-mode-toggle">
+          <input
+            type="checkbox"
+            checked={theme === "dark"}
+            onChange={() => toggleTheme(theme === "dark" ? "light" : "dark")}
+          />
+          <div className="slider round">
+            {theme === "dark" ? (
+              <FaSun className="icon" />
+            ) : (
+              <FaMoon className="icon" />
+            )}
+          </div>
+        </label>
+      )}
+    </ThemeToggler>
   )
 }
 
