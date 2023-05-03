@@ -1,6 +1,6 @@
 import * as React from "react"
 import Navbar from "../components/navbar/navbar"
-import Welcome from "../components/welcome/welcome"
+import Welcome from "../components/Welcome/welcome"
 import About from "../components/about/about"
 import Skills from "../components/skills/skills"
 import Contact from "../components/contact/contact"

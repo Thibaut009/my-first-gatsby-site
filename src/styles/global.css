@@ -5,9 +5,11 @@ body {
     padding: 0;
     
     --bg: white;
+    --wave: #f3f4f5;
     --textNormal: black;
     --textTitle: black;
-    --textLink: blue;
+    --textComp: white;
+    --colorComp: linear-gradient(to right, #6190e8, #a7bfe8);
     --navLink: #f7f7f7;
     --hr: hsla(0, 0%, 0%, 0.2);
  }
@@ -16,9 +18,11 @@ body.dark {
     -webkit-font-smoothing: antialiased;
   
     --bg: rgb(64, 65, 65);
+    --wave: #273036;
     --textNormal: white;
     --textTitle: white;
-    --textLink: yellow;
+    --textComp: white;
+    --colorComp: linear-gradient(to right, #EA5455, #FEB692);
     --navLink: rgb(54, 54, 54);
     --hr: hsla(0, 0%, 100%, 0.2);
 }
