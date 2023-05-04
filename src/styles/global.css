@@ -9,9 +9,13 @@ body {
     --textNormal: black;
     --textTitle: black;
     --textComp: white;
-    --colorComp: linear-gradient(to right, #6190e8, #a7bfe8);
     --navLink: #f7f7f7;
     --hr: hsla(0, 0%, 0%, 0.2);
+
+    --gradient: linear-gradient(to right, #7a21ff, #21D4FD);
+    --gradientColor1: #7a21ff;
+    --gradientColor2: #21D4FD;
+
  }
   
 body.dark {
@@ -22,9 +26,12 @@ body.dark {
     --textNormal: white;
     --textTitle: white;
     --textComp: white;
-    --colorComp: linear-gradient(to right, #EA5455, #FEB692);
     --navLink: rgb(54, 54, 54);
     --hr: hsla(0, 0%, 100%, 0.2);
+
+    --gradient: linear-gradient(to right, #EA5455, #FEB692);
+    --gradientColor1: #EA5455;
+    --gradientColor2: #FEB692;
 }
 
 /* CSS pour la scrollbar */

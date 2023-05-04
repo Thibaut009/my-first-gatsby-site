@@ -5,11 +5,58 @@
     background: var(--wave);
 }
 
-.svg {
+.wave {
     position: absolute;
     bottom: 0;
 }
 
-.svg path {
+.wave path {
     fill: var(--bg);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+ 
+}
+  
+.blob {
+    min-width: 400px;
+    width: 40%;
+}
+
+.text {
+    width: 40%;
+    height: 300px;
+    text-align: center;
+}
+
+.title {
+    font-size: 5vw;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+  
+    .blob {
+        width: 30%;
+    }
+  
+    .text {
+      width: 100%;
+      height: auto;
+    }
+  
+    .title {
+      font-size: 36px;
+    }
 }
