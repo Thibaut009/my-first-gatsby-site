@@ -17,19 +17,19 @@ const Skills = () => {
           <span className={icon}><FaGlobe /></span>
           <h2 className={subtitle}>Frontend</h2>
           <div className={list}>
-            <label>Html</label>
+            <p>Html</p>
             <i className={skill_icon}><FaHtml5 /></i>
           </div>
           <div className={list}>
-            <label>Css</label>
+            <p>Css</p>
             <i className={skill_icon}><FaCss3Alt /></i>
           </div>
           <div className={list}>
-            <label>JavaScript</label>
+            <p>JavaScript</p>
             <i className={skill_icon}><SiJavascript /></i>
           </div>
           <div className={list}>
-            <label>TypScript</label>
+            <p>TypScript</p>
             <i className={skill_icon}><SiTypescript /></i>
           </div>
         </div>
@@ -39,19 +39,19 @@ const Skills = () => {
           <span className={icon}><FaDatabase /></span>
           <h2 className={subtitle}>Backend</h2>
           <div className={list}>
-            <label>PHP</label>
+            <p>PHP</p>
             <i className={skill_icon}><FaPhp /></i>
           </div>
           <div className={list}>
-            <label>Java</label>
+            <p>Java</p>
             <i className={skill_icon}><FaJava /></i>
           </div>
           <div className={list}>
-            <label>Python</label>
+            <p>Python</p>
             <i className={skill_icon}><FaPython /></i>
           </div>
           <div className={list}>
-            <label>Go</label>
+            <p>Go</p>
             <i className={skill_icon}><TbBrandGolang /></i>
           </div>
         </div>
@@ -61,19 +61,19 @@ const Skills = () => {
           <span className={icon}><FaTools /></span>
           <h2 className={subtitle}>Framework</h2>
           <div className={list}>
-            <label>React</label>
+            <p>React</p>
             <i className={skill_icon}><FaReact /></i>
           </div>
           <div className={list}>
-            <label>Angular</label>
+            <p>Angular</p>
             <i className={skill_icon}><FaAngular /></i>
           </div>
           <div className={list}>
-            <label>Symfony</label>
+            <p>Symfony</p>
             <i className={skill_icon}><SiSymfony /></i>
           </div>
           <div className={list}>
-            <label>Flutter</label>
+            <p>Flutter</p>
             <i className={skill_icon}><SiFlutter /></i>
           </div>
         </div>
