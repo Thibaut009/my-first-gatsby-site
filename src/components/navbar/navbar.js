@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo">
-        My Site
+        Portfolio
       </Link>
       <div className="menu-darkmode">
         <div className="navbar-menu-icon" onClick={toggleMenu}>

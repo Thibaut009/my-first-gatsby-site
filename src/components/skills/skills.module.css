@@ -1,16 +1,15 @@
 .section {
     position: relative;
     width: 100%;
-    height: 120vh;
-    background-color: var(--bg);
+    height: 130vh;
 }
 
-.svg {
+.wave {
   position: absolute;
   bottom: 0;
 }
 
-.svg path {
+.wave path {
   fill: var(--wave);
 }
 
@@ -96,7 +95,12 @@
 
 @media screen and (max-width: 600px) {
   .section {
-    height: 230vh;
+    height: 100%;
+    margin-bottom: 90px;
+  }
+
+  .wave {
+    margin-bottom: -95px;
   }
 
   .title {

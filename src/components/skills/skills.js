@@ -2,12 +2,12 @@ import React from "react"
 import { FaGlobe, FaHtml5, FaCss3Alt, FaPhp, FaJava, FaPython, FaReact, FaAngular, FaDatabase, FaTools } from "react-icons/fa"
 import { SiJavascript, SiTypescript, SiSymfony, SiFlutter } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
-import { section, svg, title, skills, set, icon, skill_icon, subtitle, list } from '../skills/skills.module.css'
+import { section, wave, title, skills, set, icon, skill_icon, subtitle, list } from '../skills/skills.module.css'
 
 const Skills = () => {
   return (
     <section className={section}>
-      <svg className={svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg className={wave} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fillOpacity="1" d="M0,128L120,122.7C240,117,480,107,720,117.3C960,128,1200,160,1320,176L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
       </svg>
 
