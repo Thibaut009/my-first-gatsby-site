@@ -26,7 +26,7 @@
   display: grid;
   grid-gap: 16px;
   padding: 16px;
-  max-width: 1024px;
+  max-width: 1324px;
   margin-inline: auto;
 }
 
@@ -93,14 +93,31 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .section {
     height: 100%;
-    margin-bottom: 90px;
+    margin-bottom: 160px;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
   }
 
   .wave {
-    margin-bottom: -95px;
+    margin-bottom: -165px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    height: 100%;
+    margin-bottom: 130px;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
   }
 
   .title {
@@ -110,5 +127,6 @@
 
   .skills {
     grid-template-columns: 1fr;
+    grid-gap: 16px;
   }
 }
