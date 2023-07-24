@@ -11,11 +11,11 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Portfolio Gabet Thibaut`,
-        short_name: `Gabet Thibaut`,
+        short_name: `ThibautG`,
         description: `Porfolio website Gabet Thibaut`,
         start_url: `/`,
-        background_color: `#21D4FD`,
-        theme_color: `#21D4FD`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
         display: `standalone`,
         icon: `src/images/pwa-icon.png`,
         icons: [
