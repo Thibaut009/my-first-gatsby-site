@@ -16,7 +16,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
-        display: `fullscreen`,
+        display: `standalone`,
         icon: `src/images/pwa-icon.png`,
         icons: [
           {
